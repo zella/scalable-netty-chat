@@ -12,6 +12,6 @@ Start server(2) with port 6667;
 ...  
 Start server(n) with port 6666+n;
 
-Сonnect multiple clients to available servers and start typing in the console
+Сonnect clients to available servers what you want and start typing in the console
 
 
