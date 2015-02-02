@@ -1,7 +1,7 @@
 # scalable-netty-chat
 <b>Simple horisontal scalable tcp chat with netty and hazelcast pub/sub.</b>
 
-###How works:
+###How it works:
 Each server node holds it's own clients connections;  
 Messages from client delivered to each server node over pub/sub;  
 Each server node sends message to connected clients;
