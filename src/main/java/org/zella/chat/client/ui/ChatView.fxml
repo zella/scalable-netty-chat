@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="456.0" prefWidth="481.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.zella.chat.client.ui.ChatController">
+   <children>
+      <SplitPane dividerPositions="0.7515400410677618" layoutX="103.0" layoutY="76.0" prefHeight="381.0" prefWidth="489.0" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TextArea fx:id="chatTextArea" layoutX="25.0" layoutY="51.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <ListView fx:id="usersListView" layoutY="14.0" prefHeight="200.0" prefWidth="106.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <Button fx:id="sendButton" layoutX="395.0" layoutY="389.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="66.0" text="Button" AnchorPane.bottomAnchor="4.0" AnchorPane.rightAnchor="10.0" />
+      <TextArea fx:id="messageTextArea" layoutX="8.0" layoutY="443.0" prefHeight="35.0" prefWidth="389.0" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="84.0" />
+   </children>
+</AnchorPane>
