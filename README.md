@@ -1,3 +1,5 @@
+@Deprecated
+
 # scalable-netty-chat
 <b>Simple horisontal scalable tcp chat with netty and hazelcast pub/sub.</b>
 
